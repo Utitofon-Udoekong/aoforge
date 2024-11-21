@@ -3,7 +3,7 @@ export default defineAppConfig({
   docus: {
     title: 'AOForge',
     description: 'The official landing page for create AO app',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    image: '/aoforge-banner.png',
     socials: {
       github: 'https://github.com/Utitofon-Udoekong/create-ao-app',
       npm: {
@@ -30,10 +30,17 @@ export default defineAppConfig({
       fluid: true
     },
     header: {
-      logo: false,
+      logo: true,
       showLinkIcon: true,
       exclude: [],
       fluid: true
+    },
+    footer: {
+      credits: {
+        icon: '',
+        text: 'Powered by AO',
+        href: 'https://aoforge.vercel.app'
+      }
     }
   }
 })
