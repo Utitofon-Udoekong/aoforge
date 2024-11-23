@@ -1,24 +1,12 @@
-<script setup>
-// export default {
-//   data() {
-//     return {
-//       // Assuming you have a way to determine the current theme
-//       currentTheme: 'light', // Example default theme
-//     };
-//   },
-//   computed: {
-//     logoSrc() {
-//       return this.currentTheme === 'dark' ? '/logo-dark.png' : '/logo-light.png';
-//     },
-//   },
-// };
-const logoSrc = '/logo.png'
+<script setup lang="ts">
+const colorMode = useColorMode()
+const isDark = computed(() => colorMode.value === 'dark')
+const logoSrc = computed(() => isDark.value ? '/logo-dark.png' : '/logo-light.png')
+
 </script>
 
 <template>
-  <div class="border-red-500">
-    <!-- <NuxtImg class="filter invert" width="100" height="100" :src="logoSrc" alt="AOForge Logo" /> -->
-  </div>
+  <NuxtImg :src="logoSrc" height="100"  alt="AOForge Logo" />
 </template>
 
 <style scoped>

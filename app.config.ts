@@ -6,6 +6,7 @@ export default defineAppConfig({
     image: '/aoforge-banner.png',
     socials: {
       github: 'https://github.com/Utitofon-Udoekong/create-ao-app',
+      twitter: '@ao_forge',
       npm: {
         label: 'NPM',
         icon: 'devicon:npm',
@@ -18,7 +19,7 @@ export default defineAppConfig({
       branch: 'master',
       repo: 'create-ao-app',
       owner: 'Utitofon-Udoekong',
-      edit: false
+      edit: false,
     },
     aside: {
       level: 0,
