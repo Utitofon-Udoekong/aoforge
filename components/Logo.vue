@@ -9,11 +9,3 @@ const logoSrc = computed(() => isDark.value ? '/logo-dark.png' : '/logo-light.pn
   <NuxtImg :src="logoSrc" height="100"  alt="AOForge Logo" />
 </template>
 
-<style scoped>
-.filter {
-  filter: invert(1);
-}
-.border-red-500 {
-  border: 2px solid red;
-}
-</style>
