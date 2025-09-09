@@ -1,0 +1,8 @@
+- title: Troubleshooting
+  items:
+    - title: Common Issues
+      to: /troubleshooting/common-issues
+    - title: Debugging
+      to: /troubleshooting/debugging
+    - title: Error Messages
+      to: /troubleshooting/error-messages

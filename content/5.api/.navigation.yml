@@ -1,0 +1,10 @@
+- title: API
+  items:
+    - title: Configuration
+      to: /api/configuration
+    - title: Managers
+      to: /api/managers
+    - title: Types
+      to: /api/types
+    - title: Commands
+      to: /api/commands

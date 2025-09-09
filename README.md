@@ -1,6 +1,6 @@
-# AOForge
+# ao-forge
 
-The official landing page for [create-ao-app](https://github.com/Utitofon-Udoekong/create-ao-app), a CLI tool for quickly scaffolding AO-powered applications with Next.js or Nuxt.js.
+The official documentation site for [ao-forge](https://github.com/ao-forge/ao-forge), a CLI tool for quickly scaffolding AO-powered applications with Next.js or Nuxt.js.
 
 ## Tech Stack
 
@@ -9,7 +9,7 @@ The official landing page for [create-ao-app](https://github.com/Utitofon-Udoeko
 - 💪 TypeScript - For type safety
 - 📱 Fully Responsive Design
 
-## Features of create-ao-app
+## Features of ao-forge
 
 - 📖 Interactive CLI command documentation
 - 🎯 Quick start guide
@@ -17,6 +17,9 @@ The official landing page for [create-ao-app](https://github.com/Utitofon-Udoeko
 - 🎨 Dark/Light mode support
 - 🔄 Live CLI demo
 - 📚 Framework comparison section
+- 🤖 AI-powered code generation
+- ⚡ Development server with hot reloading
+- 🔧 AO process management
 
 ## Contributing
 
@@ -28,5 +31,5 @@ The official landing page for [create-ao-app](https://github.com/Utitofon-Udoeko
 
 ## Related
 
-- [create-ao-app CLI](https://www.npmjs.com/package/create-ao-app) - The main CLI tool
-- [Documentation](https://github.com/Utitofon-Udoekong/create-ao-app#readme) - CLI documentation
+- [ao-forge CLI](https://www.npmjs.com/package/ao-forge) - The main CLI tool
+- [Documentation](https://github.com/ao-forge/ao-forge#readme) - CLI documentation

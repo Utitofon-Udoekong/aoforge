@@ -1,0 +1,87 @@
+- title: Getting Started
+  to: /getting-started/installation
+  items:
+    - title: Installation
+      to: /getting-started/installation
+    - title: Quick Start
+      to: /getting-started/quick-start
+    - title: First Project
+      to: /getting-started/first-project
+    - title: Project Structure
+      to: /getting-started/project-structure
+
+- title: Guides
+  to: /guides/project-scaffolding
+  items:
+    - title: Project Scaffolding
+      to: /guides/project-scaffolding
+    - title: AI Code Generation
+      to: /guides/ai-code-generation
+    - title: Development Workflow
+      to: /guides/development-workflow
+    - title: Build and Deploy
+      to: /guides/build-and-deploy
+    - title: Configuration
+      to: /guides/configuration
+
+- title: CLI Reference
+  to: /cli-reference/init-command
+  items:
+    - title: init command
+      to: /cli-reference/init-command
+    - title: dev command
+      to: /cli-reference/dev-command
+    - title: ai command
+      to: /cli-reference/ai-command
+    - title: build command
+      to: /cli-reference/build-command
+    - title: config command
+      to: /cli-reference/config-command
+    - title: process command
+      to: /cli-reference/process-command
+    - title: version command
+      to: /cli-reference/version-command
+
+- title: Examples
+  to: /examples/dao-application
+  items:
+    - title: DAO Application
+      to: /examples/dao-application
+    - title: NFT Marketplace
+      to: /examples/nft-marketplace
+    - title: DeFi Protocol
+      to: /examples/defi-protocol
+    - title: Token Contract
+      to: /examples/token-contract
+
+- title: API
+  to: /api/configuration
+  items:
+    - title: Configuration
+      to: /api/configuration
+    - title: Managers
+      to: /api/managers
+    - title: Types
+      to: /api/types
+    - title: Commands
+      to: /api/commands
+
+- title: Troubleshooting
+  to: /troubleshooting/common-issues
+  items:
+    - title: Common Issues
+      to: /troubleshooting/common-issues
+    - title: Debugging
+      to: /troubleshooting/debugging
+    - title: Error Messages
+      to: /troubleshooting/error-messages
+
+- title: Contributing
+  to: /contributing/setup
+  items:
+    - title: Setup
+      to: /contributing/setup
+    - title: Development
+      to: /contributing/development
+    - title: Testing
+      to: /contributing/testing

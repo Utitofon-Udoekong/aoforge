@@ -1,0 +1,16 @@
+- title: CLI Reference
+  items:
+    - title: init command
+      to: /cli-reference/init-command
+    - title: dev command
+      to: /cli-reference/dev-command
+    - title: ai command
+      to: /cli-reference/ai-command
+    - title: build command
+      to: /cli-reference/build-command
+    - title: config command
+      to: /cli-reference/config-command
+    - title: process command
+      to: /cli-reference/process-command
+    - title: version command
+      to: /cli-reference/version-command

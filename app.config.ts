@@ -1,25 +1,19 @@
 // https://github.com/nuxt-themes/docus/blob/main/nuxt.schema.ts
 export default defineAppConfig({
   docus: {
-    title: 'AOForge',
-    description: 'The official landing page for create AO app',
-    image: '/aoforge-banner.png',
+    title: 'ao-forge',
+    description: 'CLI tool to create AO-powered applications',
+    image: '/og-image.png',
     socials: {
-      github: 'https://github.com/Utitofon-Udoekong/create-ao-app',
-      twitter: '@ao_forge',
-      npm: {
-        label: 'NPM',
-        icon: 'devicon:npm',
-        rel: 'noopener',
-        href: 'https://www.npmjs.com/package/create-ao-app'
-      }
+      github: 'ao-forge/ao-forge',
+      discord: 'ao-forge',
+      twitter: 'ao_forge'
     },
     github: {
-      dir: '.starters/default/content',
-      branch: 'master',
-      repo: 'create-ao-app',
-      owner: 'Utitofon-Udoekong',
-      edit: false,
+      owner: 'ao-forge',
+      repo: 'ao-forge',
+      branch: 'main',
+      dir: 'docs'
     },
     aside: {
       level: 0,
@@ -38,9 +32,9 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        icon: '',
-        text: 'Powered by AO',
-        href: 'https://aoforge.vercel.app'
+        icon: 'IconDocus',
+        text: 'Powered by Docus',
+        href: 'https://docus.dev'
       }
     }
   }

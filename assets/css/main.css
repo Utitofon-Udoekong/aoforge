@@ -1,0 +1,266 @@
+/* Custom styles for ao-forge documentation */
+
+/* Command examples */
+.command-example {
+  @apply bg-gray-900 rounded-lg overflow-hidden mb-4;
+}
+
+.command-header {
+  @apply flex items-center justify-between p-4 bg-gray-800;
+}
+
+.command-text {
+  @apply text-green-400 font-mono text-sm flex-1;
+}
+
+.copy-button {
+  @apply px-3 py-1 bg-blue-600 text-white text-xs rounded hover:bg-blue-700 transition-colors;
+}
+
+.copy-button.copied {
+  @apply bg-green-600;
+}
+
+.command-output {
+  @apply p-4 bg-gray-900;
+}
+
+.command-output pre {
+  @apply text-gray-300 font-mono text-sm whitespace-pre-wrap;
+}
+
+/* AOS CLI Guide */
+.aos-guide {
+  @apply bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6;
+}
+
+.guide-title {
+  @apply text-lg font-semibold text-blue-900 mb-2;
+}
+
+.guide-description {
+  @apply text-blue-800 mb-4;
+}
+
+.aos-commands {
+  @apply space-y-3;
+}
+
+.command-item {
+  @apply flex flex-col sm:flex-row sm:items-center gap-2;
+}
+
+.command {
+  @apply bg-gray-900 text-green-400 font-mono text-sm px-3 py-2 rounded flex-shrink-0;
+}
+
+.command-description {
+  @apply text-blue-700 text-sm;
+}
+
+/* Project Structure */
+.project-structure {
+  @apply bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6;
+}
+
+.structure-title {
+  @apply text-lg font-semibold text-gray-900 mb-4;
+}
+
+.structure-content {
+  @apply bg-gray-900 rounded p-4 overflow-x-auto;
+}
+
+.structure-tree {
+  @apply text-green-400 font-mono text-sm whitespace-pre;
+}
+
+/* Code blocks */
+.code-block {
+  @apply bg-gray-900 rounded-lg overflow-hidden mb-4;
+}
+
+.code-header {
+  @apply flex items-center justify-between p-3 bg-gray-800 border-b border-gray-700;
+}
+
+.code-title {
+  @apply text-gray-300 font-medium text-sm;
+}
+
+.code-content {
+  @apply p-4 overflow-x-auto;
+}
+
+.code-content pre {
+  @apply text-gray-300 font-mono text-sm;
+}
+
+.code-content code {
+  @apply text-gray-300;
+}
+
+/* Feature cards */
+.feature-card {
+  @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow;
+}
+
+.feature-icon {
+  @apply text-blue-600 mb-4;
+}
+
+.feature-content {
+  @apply space-y-3;
+}
+
+.feature-title {
+  @apply text-xl font-semibold text-gray-900;
+}
+
+.feature-description {
+  @apply text-gray-600;
+}
+
+.feature-actions {
+  @apply flex flex-wrap gap-2 pt-2;
+}
+
+.feature-action {
+  @apply text-blue-600 hover:text-blue-800 text-sm font-medium transition-colors;
+}
+
+/* Workflow diagram */
+.workflow-diagram {
+  @apply bg-white rounded-lg shadow-md p-6 mb-6;
+}
+
+.diagram-title {
+  @apply text-xl font-semibold text-gray-900 mb-6;
+}
+
+.diagram-content {
+  @apply relative;
+}
+
+.workflow-steps {
+  @apply space-y-6;
+}
+
+.workflow-step {
+  @apply flex items-start space-x-4 p-4 rounded-lg border-2 border-transparent transition-all;
+}
+
+.workflow-step.active {
+  @apply border-blue-500 bg-blue-50;
+}
+
+.step-number {
+  @apply w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold text-sm flex-shrink-0;
+}
+
+.workflow-step.active .step-number {
+  @apply bg-blue-700;
+}
+
+.step-content {
+  @apply flex-1;
+}
+
+.step-title {
+  @apply text-lg font-semibold text-gray-900 mb-2;
+}
+
+.step-description {
+  @apply text-gray-600 mb-3;
+}
+
+.step-commands {
+  @apply space-y-1;
+}
+
+.step-command {
+  @apply block bg-gray-900 text-green-400 font-mono text-sm px-3 py-2 rounded;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500;
+}
+
+/* Dark mode support */
+.dark .command-example {
+  @apply bg-gray-800;
+}
+
+.dark .command-header {
+  @apply bg-gray-700;
+}
+
+.dark .aos-guide {
+  @apply bg-blue-900 border-blue-700;
+}
+
+.dark .guide-title {
+  @apply text-blue-100;
+}
+
+.dark .guide-description {
+  @apply text-blue-200;
+}
+
+.dark .command-description {
+  @apply text-blue-300;
+}
+
+.dark .project-structure {
+  @apply bg-gray-800 border-gray-600;
+}
+
+.dark .structure-title {
+  @apply text-gray-100;
+}
+
+.dark .feature-card {
+  @apply bg-gray-800;
+}
+
+.dark .feature-title {
+  @apply text-gray-100;
+}
+
+.dark .feature-description {
+  @apply text-gray-300;
+}
+
+.dark .workflow-diagram {
+  @apply bg-gray-800;
+}
+
+.dark .diagram-title {
+  @apply text-gray-100;
+}
+
+.dark .workflow-step.active {
+  @apply border-blue-400 bg-blue-900;
+}
+
+.dark .step-title {
+  @apply text-gray-100;
+}
+
+.dark .step-description {
+  @apply text-gray-300;
+}

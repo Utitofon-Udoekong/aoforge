@@ -1,0 +1,12 @@
+- title: Guides
+  items:
+    - title: Project Scaffolding
+      to: /guides/project-scaffolding
+    - title: AI Code Generation
+      to: /guides/ai-code-generation
+    - title: Development Workflow
+      to: /guides/development-workflow
+    - title: Build and Deploy
+      to: /guides/build-and-deploy
+    - title: Configuration
+      to: /guides/configuration

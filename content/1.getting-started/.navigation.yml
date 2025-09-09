@@ -1,0 +1,10 @@
+- title: Getting Started
+  items:
+    - title: Installation
+      to: /getting-started/installation
+    - title: Quick Start
+      to: /getting-started/quick-start
+    - title: First Project
+      to: /getting-started/first-project
+    - title: Project Structure
+      to: /getting-started/project-structure

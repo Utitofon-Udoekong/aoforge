@@ -1,0 +1,10 @@
+- title: Examples
+  items:
+    - title: DAO Application
+      to: /examples/dao-application
+    - title: NFT Marketplace
+      to: /examples/nft-marketplace
+    - title: DeFi Protocol
+      to: /examples/defi-protocol
+    - title: Token Contract
+      to: /examples/token-contract
