@@ -3,17 +3,23 @@ export default defineAppConfig({
   docus: {
     title: 'ao-forge',
     description: 'CLI tool to create AO-powered applications',
-    image: '/og-image.png',
+    image: '/aoforge-banner.jpg',
     socials: {
-      github: 'ao-forge/ao-forge',
-      discord: 'ao-forge',
-      twitter: 'ao_forge'
+      github: 'https://github.com/Utitofon-Udoekong/create-ao-app',
+      twitter: '@ao_forge',
+      npm: {
+        label: 'NPM',
+        icon: 'devicon:npm',
+        rel: 'noopener',
+        href: 'https://www.npmjs.com/package/create-ao-app'
+      }
     },
     github: {
-      owner: 'ao-forge',
-      repo: 'ao-forge',
-      branch: 'main',
-      dir: 'docs'
+      dir: '.starters/default/content',
+      branch: 'master',
+      repo: 'create-ao-app',
+      owner: 'Utitofon-Udoekong',
+      edit: false,
     },
     aside: {
       level: 0,
@@ -32,9 +38,9 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        icon: 'IconDocus',
-        text: 'Powered by Docus',
-        href: 'https://docus.dev'
+        icon: '',
+        text: 'Powered by AO',
+        href: 'https://aoforge.vercel.app'
       }
     }
   }
