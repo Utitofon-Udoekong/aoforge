@@ -3,8 +3,13 @@ export default defineNuxtConfig({
   extends: ['@nuxt-themes/docus'],
   devtools: { enabled: false },
   compatibilityDate: '2024-10-24',
-  ssr: true,
-  
+  ssr: false,
+  nitro: {
+    preset: 'static',
+    output: {
+      publicDir: 'out'
+    }
+  },
   // Content configuration
   content: {
     highlight: {
