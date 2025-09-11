@@ -3,7 +3,7 @@ on:
     # Run with every push to 'main' branch:
     push:
         branches:
-            - 'master'
+            - 'main'
     # Run Manually:
     #workflow_dispatch:
 jobs:
