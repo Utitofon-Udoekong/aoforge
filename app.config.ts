@@ -1,7 +1,7 @@
 // https://github.com/nuxt-themes/docus/blob/main/nuxt.schema.ts
 export default defineAppConfig({
   docus: {
-    title: 'ao-forge',
+    title: 'AOForge',
     description: 'CLI tool to create AO-powered applications',
     image: '/aoforge-banner.png',
     socials: {
