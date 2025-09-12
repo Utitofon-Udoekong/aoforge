@@ -3,7 +3,7 @@ export default defineAppConfig({
   docus: {
     title: 'ao-forge',
     description: 'CLI tool to create AO-powered applications',
-    image: '/aoforge-banner.jpg',
+    image: '/aoforge-banner.png',
     socials: {
       github: 'https://github.com/Utitofon-Udoekong/aoforge-cli/tree/release/2.0.0?tab=readme-ov-file',
       twitter: '@ao_forge',
@@ -13,13 +13,6 @@ export default defineAppConfig({
         rel: 'noopener',
         href: 'https://www.npmjs.com/package/ao-forge'
       }
-    },
-    github: {
-      dir: '.starters/default/content',
-      branch: 'master',
-      repo: 'create-ao-app',
-      owner: 'Utitofon-Udoekong',
-      edit: false,
     },
     aside: {
       level: 0,

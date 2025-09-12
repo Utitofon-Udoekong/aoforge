@@ -4,12 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   compatibilityDate: '2024-10-24',
   ssr: false,
-  nitro: {
-    preset: 'static',
-    output: {
-      publicDir: 'out'
-    }
-  },
   // Content configuration
   content: {
     highlight: {
