@@ -14,3 +14,7 @@
       to: /cli-reference/process-command
     - title: version command
       to: /cli-reference/version-command
+    - title: help command
+      to: /cli-reference/help-command
+    - title: info command
+      to: /cli-reference/info-command
