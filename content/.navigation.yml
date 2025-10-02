@@ -43,16 +43,18 @@
       to: /cli-reference/version-command
 
 - title: Examples
-  to: /examples/dao-application
-  items:
-    - title: DAO Application
-      to: /examples/dao-application
-    - title: NFT Marketplace
-      to: /examples/nft-marketplace
-    - title: DeFi Protocol
-      to: /examples/defi-protocol
-    - title: Token Contract
-      to: /examples/token-contract
+  to: /examples/taskmaster
+  # items:
+    # - title: DAO Application
+    #   to: /examples/dao-application
+    # - title: NFT Marketplace
+    #   to: /examples/nft-marketplace
+    # - title: DeFi Protocol
+    #   to: /examples/defi-protocol
+    # - title: Token Contract
+    #   to: /examples/token-contract
+    # - title: TaskMaster
+    #   to: /examples/taskmaster
 
 - title: API
   to: /api/configuration

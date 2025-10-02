@@ -2,8 +2,8 @@
   items:
     - title: Installation
       to: /getting-started/installation
-    - title: Quick Start
-      to: /getting-started/quick-start
+    - title: Usage
+      to: /getting-started/usage
     - title: First Project
       to: /getting-started/first-project
     - title: Project Structure

@@ -5,7 +5,7 @@ export default defineAppConfig({
     description: 'CLI tool to create AO-powered applications',
     image: '/aoforge-banner.png',
     socials: {
-      github: 'https://github.com/Utitofon-Udoekong/aoforge-cli/releases/tag/2.1.1',
+      github: 'https://github.com/Utitofon-Udoekong/aoforge/releases/tag/2.1.2',
       twitter: '@ao_forge',
       npm: {
         label: 'NPM',
